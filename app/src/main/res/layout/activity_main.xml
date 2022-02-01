@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/container"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/contentTop">
+
+        <TextView
+            style="@style/defaultText"
+            android:text="@string/title" />
+
+        <EditText
+            style="@style/defaultText"
+            android:hint="@string/total_distance" />
+
+        <TextView
+            style="@style/defaultText"
+            android:text="@string/total_distance_label" />
+
+        <EditText
+            style="@style/defaultText"
+            android:hint="@string/gas_price" />
+
+        <TextView
+            style="@style/defaultText"
+            android:text="@string/gas_price_by_liter_label" />
+
+        <EditText
+            style="@style/defaultText"
+            android:hint="@string/autonomy" />
+
+        <TextView
+            style="@style/defaultText"
+            android:text="@string/autonomy_label" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/calculate_button" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/contentBottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/defaultText"
+                android:text="@string/prefix_price" />
+
+            <TextView
+                style="@style/defaultText"
+                android:text="@string/total_price" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/defaultText"
+            android:text="@string/result_label" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
