@@ -8,36 +8,39 @@
     <LinearLayout style="@style/contentTop">
 
         <TextView
-            style="@style/defaultText"
+            style="@style/titleText"
             android:text="@string/title" />
 
         <EditText
-            style="@style/defaultText"
+            android:id="@+id/total_distance"
+            style="@style/inputText"
             android:hint="@string/total_distance" />
 
         <TextView
-            style="@style/defaultText"
+            style="@style/labelText"
             android:text="@string/total_distance_label" />
 
         <EditText
-            style="@style/defaultText"
+            android:id="@+id/gas_price"
+            style="@style/inputText"
             android:hint="@string/gas_price" />
 
         <TextView
-            style="@style/defaultText"
+            style="@style/labelText"
             android:text="@string/gas_price_by_liter_label" />
 
         <EditText
-            style="@style/defaultText"
+            android:id="@+id/autonomy"
+            style="@style/inputText"
             android:hint="@string/autonomy" />
 
         <TextView
-            style="@style/defaultText"
+            style="@style/labelText"
             android:text="@string/autonomy_label" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/calculate_button"
+            style="@style/button"
             android:hint="@string/calculate_button" />
     </LinearLayout>
 
@@ -49,16 +52,18 @@
             android:orientation="horizontal">
 
             <TextView
-                style="@style/defaultText"
+                style="@style/resultTextPrefix"
+                android:layout_height="match_parent"
                 android:text="@string/prefix_price" />
 
             <TextView
-                style="@style/defaultText"
+                android:id="@+id/total_price"
+                style="@style/resultText"
                 android:text="@string/total_price" />
         </LinearLayout>
 
         <TextView
-            style="@style/defaultText"
+            style="@style/resultLabel"
             android:text="@string/result_label" />
     </LinearLayout>
 

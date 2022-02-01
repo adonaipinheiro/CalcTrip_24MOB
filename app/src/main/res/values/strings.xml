@@ -7,8 +7,8 @@
     <string name="gas_price_by_liter_label">Preço por Litro</string>
     <string name="autonomy">Autonomia</string>
     <string name="autonomy_label">KM´s por Litro</string>
-    <string name="calculate_button">Distância a ser percorrida</string>
+    <string name="calculate_button">CALCULAR</string>
     <string name="prefix_price">R$</string>
-    <string name="total_price">1000,00</string>
+    <string name="total_price">0,00</string>
     <string name="result_label">Esse será seu gasto na viagem</string>
 </resources>
